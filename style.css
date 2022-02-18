@@ -1,0 +1,43 @@
+body {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hidden {
+    display: none;
+}
+#gameBoard {
+    background-color: rgba(128, 128, 128, 0.712);
+    width: 80vmin;
+    height: 80vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+.snake {
+    background-color: rgb(0, 255, 21);
+    border: 1px solid black;
+    border-radius: 80%;
+
+}
+
+.food {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#score {
+    font-size: 100px;
+}
+
+#gameOver {
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 30px;
+}
